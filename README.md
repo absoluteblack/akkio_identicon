@@ -11,4 +11,4 @@
 
 As a simple cli tool, just call `python generate.py <size> <seed>`, and the resulting identicon will be stored at `<seed>_identicon.png`! 
 
-As an example, `python generate.py 8 absoluteblack` creates <img src="https://github.com/absoluteblack/akkio_identicon/blob/main/absoluteblack_identicon.png?raw=true"> at `absoluteblack_identicon.png`, as shown in this repo.
+As an example, `python generate.py 8 absoluteblack` creates <img src="https://github.com/absoluteblack/akkio_identicon/blob/main/absoluteblack_identicon.png?raw=true" height="32" width="32"> at `absoluteblack_identicon.png`, as shown in this repo.
