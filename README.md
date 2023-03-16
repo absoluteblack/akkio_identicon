@@ -1,9 +1,10 @@
-# akkio_identicon
+# Identicons
 ## Objectives
 
 * Identicons should be horizontally symmetric and have two colors: background and foreground
-* Identicons should render down as small as 16x16 
-* Strings and resulting identicons should have no correlation 
+* Background color should be consistent, while foreground color should be random and high-contrast to the background
+* Identicons should render down as small as 16x16 and remain distinctly legible
+* Strings-as-seeds and resulting identicons should have no obvious visual correlation 
 * This library should work standalone or be importable in larger projects
 
 ## Installation and Usage
