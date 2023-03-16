@@ -1,5 +1,6 @@
 import random
 import string
+import sys
 import numpy as np
 
 from PIL import Image, ImageColor
@@ -24,3 +25,11 @@ def gen_image(size=8, seed=''.join([random.choice(string.ascii_letters) for i in
     random.seed(seed)  # This is lazy, but it works fine for single thread stuff
     im = Image.fromarray(gen_grid(size))
     return im
+
+def main(argv):
+    im = gen_image(int(argv[1]), argv[2])
+    im.save(f"{argv[2]}_identicon.png", "PNG")
+    print("New image saved!")
+
+if __name__ == "__main__":
+    main(sys.argv)
